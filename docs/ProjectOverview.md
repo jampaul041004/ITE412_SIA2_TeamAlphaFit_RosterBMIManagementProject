@@ -1,39 +1,67 @@
 SYSTEM OBJECTIVES
-  The AlphaFit: A Cloud-Based Roster Management System with Individual BMI Tracking and Insights for RCEU MIMAROPA aims to address inefficiencies in roster management and health monitoring within the unit. Currently, data is managed manually or through fragmented systems, resulting in delays, inaccuracies, and limited accessibility.
-  The objectives of the system are:
-    1. To provide a centralized and secure platform for roster management and health data monitoring.
-    2. To integrate BMI tracking and analysis, enabling automated calculations, trend monitoring, and personalized health insights.
-    3. To improve operational efficiency, reducing the time needed for report generation and increasing the accuracy of health records.
-    4. To support evidence-based decision-making by delivering clear health dashboards and comprehensive reports.
-    5. To ensure scalability and reliability by deploying the system on a cloud-based infrastructure.
+The AlphaFit: A Cloud-Based Roster Management System with Individual BMI Tracking and Insights for RCEU MIMAROPA aims to address inefficiencies in roster management and health monitoring within the unit. Currently, data is managed manually or through fragmented systems, resulting in delays, inaccuracies, and limited accessibility.
+The objectives of the system are: 1. To provide a centralized and secure platform for roster management and health data monitoring. 2. To integrate BMI tracking and analysis, enabling automated calculations, trend monitoring, and personalized health insights. 3. To improve operational efficiency, reducing the time needed for report generation and increasing the accuracy of health records. 4. To support evidence-based decision-making by delivering clear health dashboards and comprehensive reports. 5. To ensure scalability and reliability by deploying the system on a cloud-based infrastructure.
 
 PROPOSED SCOPE
 The project will cover the following modules and integrations:
-  1. User Management & Authentication – secure login and role-based access for Administrators, Staff, Medical Officers, and Personnel.
-  2. Roster Management – encoding, updating, and maintaining personnel roster data.
-  3. BMI Tracking & Analysis – automated computation of BMI, storage of historical data, and generation of insights.
-  4.Health Profile Dashboard – visual representation of BMI trends, health metrics, and personalized insights.
-  5.Report Generation – automated creation of NSU-compliant reports and consolidated data outputs.
-  6. Audit Logs – activity tracking for accountability and transparency.
-  7. Cloud Deployment – ensure data availability, backup, and scalability.
-     
-Limitations of the initial scope include:
-  1. Focus only on RCEU MIMAROPA as the pilot group.
-  2. Limited to roster management and BMI modules during the first phase.
-  3.Possible challenges in adoption due to resource constraints, training needs, and data migration.
 
+1. User Management & Authentication – secure login and role-based access for Administrators, Staff, Medical Officers, and Personnel.
+2. Roster Management – encoding, updating, and maintaining personnel roster data.
+3. BMI Tracking & Analysis – automated computation of BMI, storage of historical data, and generation of insights.
+   4.Health Profile Dashboard – visual representation of BMI trends, health metrics, and personalized insights.
+   5.Report Generation – automated creation of NSU-compliant reports and consolidated data outputs.
+4. Audit Logs – activity tracking for accountability and transparency.
+5. Cloud Deployment – ensure data availability, backup, and scalability.
+
+Limitations of the initial scope include:
+
+1. Focus only on RCEU MIMAROPA as the pilot group.
+2. Limited to roster management and BMI modules during the first phase.
+   3.Possible challenges in adoption due to resource constraints, training needs, and data migration.
 
 STAKEHOLDERS
-  1. RCEU Administrators – oversee roster data, verify accuracy, generate reports, and manage user access.
-  2. Medical Officers – update BMI data, validate health information, and ensure accurate health monitoring.
-  3. Personnel (End-Users) – view personal roster information, monitor BMI trends, and access insights.
-  4. (Secondary stakeholders: Project team, IT staff for deployment & maintenance, and the wider PNP organization for possible future adoption.)
+
+1. RCEU Administrators – oversee roster data, verify accuracy, generate reports, and manage user access.
+2. Medical Officers – update BMI data, validate health information, and ensure accurate health monitoring.
+3. Personnel (End-Users) – view personal roster information, monitor BMI trends, and access insights.
+4. (Secondary stakeholders: Project team, IT staff for deployment & maintenance, and the wider PNP organization for possible future adoption.)
 
 TOOLS AND TECHNOLOGIES
-  1. Programming Language & Frameworks: PHP (Laravel), JavaScript, HTML, CSS (frontend)
-  2. Database: MySQL
-  3. Cloud Platform: Hostinger
-  4. Version Control: Git & GitHub (collaboration and code management)
-  5. UI/UX Tools: Figma / Canva (for interface design)
-  6. Security Technologies: HTTPS/TLS encryption, hashed and salted passwords (bcrypt), RBAC (role-based access control)
 
+1. Programming Language & Frameworks: PHP (Laravel), JavaScript, HTML, CSS (frontend)
+2. Database: MySQL
+3. Cloud Platform: Hostinger
+4. Version Control: Git & GitHub (collaboration and code management)
+5. UI/UX Tools: Figma / Canva (for interface design)
+6. Security Technologies: HTTPS/TLS encryption, hashed and salted passwords (bcrypt), RBAC (role-based access control)
+
+HIGH-LEVEL SYSTEM OVERVIEW
+Major Modules/Subsystems
+
+1. User Management Module
+   Handles authentication and authorization processes (login, registration, role-based access). This ensures that Administrators, Staff, Medical Officers, and Personnel can securely access the system based on their assigned privileges.
+2. Roster & Data Management Module
+   Enables Staff to encode, update, view, and manage personnel and roster information. This includes BMI records, health data, and personal details required for reporting and tracking.
+3. Health Monitoring & Insights Module
+   Provides Medical Officers and Personnel with tools to update, view, and analyze BMI and health-related metrics. This module generates personalized dashboards and reports, offering actionable insights for health improvement and organizational decision-making.
+
+External Systems/Interfaces
+
+1. Database System (MySQL)
+   Stores all roster, user, and BMI-related data in a structured and secure manner.
+2. Cloud Hosting Platform
+   Ensures scalability, remote access, and high availability of the system.
+
+Potential APIs/Integrations
+
+1. BMI Calculation Logic
+2. Authentication/Identity Management
+3. Reporting/Visualization Tools
+
+Data Flow Summary
+The AlphaFit system facilitates secure interaction between multiple user roles and the cloud database. Users initiate requests (e.g., login, update BMI, manage roster) via the system interface. These requests are processed by the application layer, which validates inputs, performs the necessary operations, and updates or retrieves data from the database.
+
+1. Administrators submit user and report requests, which the system processes to manage accounts and generate summaries.
+2. Staff encode or update roster and BMI data, which is stored in the database and reflected in dashboards.
+3. Medical Officers update and validate health metrics, ensuring accuracy in personnel health records.
+4. Personnel log in to view their personal BMI data and insights generated by the system.
