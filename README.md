@@ -2,7 +2,7 @@ TEAM NAME: Team AlphaFit
 
 TEAM MEMBERS:
   Project Lead - Jam Paul A. Nepomuceno
-  Documenter - Jhoncel M. Castillo
+  Documenter - Jhoncel  Castillo
   Diagrammer - Omrey Bayani
   Presenter - Ken Ivan D. Malaluan
   Researcher - Ej Mc John Nazareno
@@ -19,3 +19,4 @@ REPOSITORY USAGE:
 git clone https://github.com/jampaul041004/ITE412_SIA2_TeamAlphaFit_RosterBMIManagementProject.git
 cd ITE412_SIA2_TeamAlphaFit_RosterBMIManagementProject
 
+# edited by Jhoncel Pogi
