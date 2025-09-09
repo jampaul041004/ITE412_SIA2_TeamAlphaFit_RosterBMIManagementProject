@@ -4,7 +4,7 @@ TEAM MEMBERS:
   Project Lead - Jam Paul A. Nepomuceno
   Documenter - Jhoncel M. Castillo
   Diagrammer - Omrey Bayani
-  Presenter - Ken Ivan D. Malaluan
+  Presenter - Ken Ivan D. Malaluan Pogi
   Researcher - Ej Mc John Nazareno
 
 PROJECT TITLE: ALPHAFIT: A CLOUD-BASED ROSTER MANAGEMENT SYSTEM WITH INDIVIDUAL BMI TRACKING AND INSIGHT FOR REGIONAL COMMUNICATIONS AND ELECTRONICS UNIT MIMAROPA
