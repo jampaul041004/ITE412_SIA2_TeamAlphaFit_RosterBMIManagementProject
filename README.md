@@ -5,7 +5,7 @@ TEAM MEMBERS:
   Documenter - Jhoncel M. Castillo
   Diagrammer - Omrey Bayani
   Presenter - Ken Ivan D. Malaluan
-  Researcher - Ej Mc John Nazareno
+  Researcher - Ej Mc John M. Nazareno
 
 PROJECT TITLE: ALPHAFIT: A CLOUD-BASED ROSTER MANAGEMENT SYSTEM WITH INDIVIDUAL BMI TRACKING AND INSIGHT FOR REGIONAL COMMUNICATIONS AND ELECTRONICS UNIT MIMAROPA
 
