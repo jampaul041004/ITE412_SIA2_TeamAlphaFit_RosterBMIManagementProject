@@ -19,4 +19,4 @@ REPOSITORY USAGE:
 git clone https://github.com/jampaul041004/ITE412_SIA2_TeamAlphaFit_RosterBMIManagementProject.git
 cd ITE412_SIA2_TeamAlphaFit_RosterBMIManagementProject
 
-# edited by Ken Ivan Malaluan pogi
+# edited by Ken Ivan Malaluan
