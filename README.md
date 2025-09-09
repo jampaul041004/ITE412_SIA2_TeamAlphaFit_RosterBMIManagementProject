@@ -3,7 +3,7 @@ TEAM NAME: Team AlphaFit
 TEAM MEMBERS:
   Project Lead - Jam Paul A. Nepomuceno
   Documenter - Jhoncel M. Castillo
-  Diagrammer - Omrey Bayani
+  Diagrammer - Omrey M. Bayani
   Presenter - Ken Ivan D. Malaluan
   Researcher - Ej Mc John Nazareno
 
