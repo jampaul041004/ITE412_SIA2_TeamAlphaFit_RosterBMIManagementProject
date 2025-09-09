@@ -58,7 +58,7 @@ Potential APIs/Integrations
 2. Authentication/Identity Management
 3. Reporting/Visualization Tools
 
-Data Flow Summary
+# Data Flow Summary
 The AlphaFit system facilitates secure interaction between multiple user roles and the cloud database. Users initiate requests (e.g., login, update BMI, manage roster) via the system interface. These requests are processed by the application layer, which validates inputs, performs the necessary operations, and updates or retrieves data from the database.
 
 1. Administrators submit user and report requests, which the system processes to manage accounts and generate summaries.
