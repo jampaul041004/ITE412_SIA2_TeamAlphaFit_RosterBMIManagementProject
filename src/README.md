@@ -1,4 +1,4 @@
-#To run the API:
+# To run the API:
 1. Go to /src/api
 2. Run: node server.js
 3. Access endpoints:
