@@ -80,3 +80,15 @@ point-to-point connections.
 ## Diagram Reference
 ![High-Level Architecture](/docs/HighLevelArch.png)
 
+
+## Messaging Workflow
+
+We implemented a simple message-oriented middleware using an in-memory queue.
+
+- **Producer (Loan Module):** pushes loan approval requests into the queue.
+- **Consumer (Approval Module):** asynchronously processes requests, approving if amount ≤ 50,000 and rejecting otherwise.
+- This simulates real-world asynchronous communication, where loan requests are handled in the background instead of blocking the main system.
+
+The workflow demonstrates how modules can communicate loosely coupled via a queue, improving scalability and reliability.
+
+
