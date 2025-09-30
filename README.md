@@ -1,4 +1,4 @@
-# [Tentative Project Title]
+# ALPHAFIT: A CLOUD-BASED ROSTER MANAGEMENT SYSTEM WITH INDIVIDUAL BMI TRACKING AND INSIGHT FOR REGIONAL COMMUNICATIONS AND ELECTRONICS UNIT MIMAROPA
 **Course:** ITP41E – System Integration and Architecture 2
 **Team Name:** [Team AlphaFit]  
 **Repository:** [(https://github.com/jampaul041004/ITE412_SIA2_TeamAlphaFit_RosterBMIManagementProject.git)]
