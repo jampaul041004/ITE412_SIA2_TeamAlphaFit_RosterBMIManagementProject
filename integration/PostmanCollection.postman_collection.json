@@ -1,0 +1,107 @@
+{
+	"info": {
+		"_postman_id": "92a76067-00cc-4b73-b148-3bb60b124e54",
+		"name": "PostmanCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47738283",
+		"_collection_link": "https://jamnepomuceno165-3430124.postman.co/workspace/PostmanCollection~d8e363b4-0e14-40f4-889c-1bff46e78c1d/collection/47738283-92a76067-00cc-4b73-b148-3bb60b124e54?action=share&source=collection_link&creator=47738283"
+	},
+	"item": [
+		{
+			"name": "test case 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/rosters",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"rosters"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test case 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"name\": \"Jam Paul\", \"age\": 21 }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/rosters",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"rosters"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test case 3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"name\": \"Jam Paul\", \"age\": 21 }\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:3000/bmis",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"bmis"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test case 4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"rosterId\": 2, \"weight\": 65, \"height\": 1.70, \"bmi\": 22.5 }\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:3000/bmis",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"bmis"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
